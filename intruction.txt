@@ -5,3 +5,9 @@ table =dd  (id,name,created_At,updated_at)
 
 controller=mixed
 model=dd
+
+
+login system include and middleware use for auth
+without login not goto dashboard page
+
+login and logout concept is good for laravel ok done;
