@@ -1,0 +1,7 @@
+laravel 5.8
+
+db name=ajay
+table =dd  (id,name,created_At,updated_at)
+
+controller=mixed
+model=dd
