@@ -21,6 +21,15 @@ Route::get('/h','h@index');
 
 Route::resource('mixed', 'mixed');
 
+Route::get('/login','h@login');
+
+Route::post('/chk_login','h@chk_login');
+
+Route::get('/dashboard','h@dashboard')->middleware('auth');
+
+
+Route::get('/logout','h@logout');
+
 
 
 Route::get('/h','h@index');
